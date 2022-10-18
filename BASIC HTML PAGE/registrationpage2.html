@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+<style>
+    
+.title
+{
+    text-align: center;
+}
+.button
+{
+ text-align: center;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:  'poppins',sans-serif;
+}
+
+/* body */
+body
+{
+display: flex;
+height:100vh ;
+justify-content: center;
+align-items: center;
+padding: 15px;
+background: linear-gradient( 45deg, rgb(81, 157, 223),  lightgreen)
+}
+.container
+{  
+    margin-bottom: 20px;
+    margin: 100px;
+    padding: 40px 50px;
+    background-color: #fff;
+    width:100% ;
+    max-width: 700px;
+    border-radius: 8px;
+}
+
+.title
+{
+    color: darkseagreen;
+    font-size: 45px;
+    font-weight: 400px;
+}
+
+.user-details
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-box
+{
+margin: 20px 0 12px 0;
+    width: calc(100%/ 2 - 20px);
+}
+
+.input-box input
+{
+width: 100%;
+height: 45px;
+border-radius: 5px;
+outline: none;
+padding-left: 15px;
+font-size: 18px;
+}
+
+.details
+{
+display: block;
+margin-bottom: 10px;
+font-weight: 400;
+outline: none;
+}
+/* button #css */
+button
+{ 
+    cursor: pointer;
+    font-size: larger;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    background-color: rgb(116, 21, 21);
+    color: #fff;
+    border: none;
+    border-radius:  8px;
+}
+
+button:active
+{
+    transform: scale(0.98);
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+</style>
+
+    <!-- HTML FORM -->
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration</div> 
+        <form action="#">
+        <div class="user-details">
+        <div class="input-box">
+        <span class="details">First Name:</span>
+        <input type=" text" placeholder="your name">
+        </div>
+        <div class="input-box">
+            <span class="details"> Second Name:</span>
+            <input type=" text" placeholder="secondname">
+        </div>
+        <div class="input-box">
+            <span class="details"> Mo:</span>
+            <input type="number" placeholder="number">
+        </div>
+        <div class="input-box">
+            <span class="details">E.mail:</span>
+            <input type=" email" placeholder="E.mail">
+        </div>
+        <div class="input-box">
+            <span class="details">password:</span>
+            <input type="password" placeholder="password">
+        </div>
+        <div class="input-box">
+            <span class="details">confirm password:</span>
+            <input type="password" placeholder="confirm password">
+        </div>
+        </div>
+        <div >
+        <button class="button" > <a href="goapage3.html"> register</a></button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
