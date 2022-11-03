@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-32x32.png">
+    <style>
+        body
+        {
+            background-color: black;
+        }
+        .x
+        {
+            height: 150px;
+            width: 150px;
+            border: 2px solid blue;
+            border-left: transparent;
+            border-right: transparent;
+            border-bottom: transparent;
+            border-radius: 100%;
+            animation-duration:1s ;
+            animation-delay: 1s;
+            animation-name:xyz; 
+            animation-iteration-count:infinite ;
+            margin: 50%;
+            
+        }
+       .y
+        {
+            height: 150px;
+            width: 150px;
+            border: 2px solid rgb(61, 173, 123);
+            border-left: transparent;
+            border-right: transparent;
+            border-bottom: transparent;
+            border-radius: 100%;
+            animation-duration:2s ;
+            animation-delay: 2s;
+            animation-name:xyz; 
+            animation-iteration-count:infinite ;
+        
+        }
+        .z
+        {
+            height: 150px;
+            width: 150px;
+            border: 2px solid yellow;
+            border-left: transparent;
+            border-right: transparent;
+            border-bottom: transparent;
+            border-radius: 100%;
+            animation-duration:2s ;
+            animation-delay: 2s;
+            animation-name:xyz; 
+            animation-iteration-count:infinite ;
+        }
+        @keyframes xyz
+        {
+            .0%
+            {
+                transform: rotate(0deg);
+            }
+           .100%
+            {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        <div  class="y">
+            <div class="z"></div>
+        </div>
+    </div>
+</body>
+</html>
